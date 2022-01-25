@@ -26,7 +26,7 @@ function Contributions({ repoList, titleColor }) {
   if (!count) return null;
 
   return (
-    <Wrapper>
+    <Wrapper><div>
       <h2 style={{ color: titleColor || "" }}>Contributions</h2>
       <p>(Pull requests)</p>
       <div style={{ margin: "1rem 0 0 1rem" }}>
@@ -41,10 +41,11 @@ function Contributions({ repoList, titleColor }) {
             />
           );
         })}
+        
       </div>
       {showMoreText && repositories.length - count > 0 && (
         <div>and {repositories.length - count} more...</div>
-      )}
+      )}</div>
     </Wrapper>
   );
 }

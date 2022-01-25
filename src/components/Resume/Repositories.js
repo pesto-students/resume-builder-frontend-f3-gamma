@@ -21,7 +21,7 @@ function Repositories({ repoList, username, titleColor }) {
     <Wrapper>
       <h2 style={{ color: titleColor || "" }}>Top Repositories</h2>
       <div style={{ margin: "1rem 0 0 1rem" }}>
-        {repoList.map((repo, i) => {
+        {repoList?.map((repo, i) => {
           if (count < i + 1) return null;
           if (!isUserOwnerOfRepository(username, repo)) {
             return null;

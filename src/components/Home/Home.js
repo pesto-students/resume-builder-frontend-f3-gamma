@@ -1,3 +1,4 @@
+import Button from "react-bootstrap/Button";
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
@@ -35,7 +36,7 @@ function Home() {
               placeholder="John_278"
             />
           </InputBox>
-          <button onClick={() => showResume()}>Generate</button>
+          <Button variant="outline-success" size="lg" onClick={() => showResume()}>Generate</Button>
         </div>
       </div>
       <img src={svg} alt="graphics" />

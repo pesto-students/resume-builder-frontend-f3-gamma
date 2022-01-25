@@ -10,7 +10,7 @@ import { setContext } from '@apollo/client/link/context';
 
 
 const httpLink = createHttpLink({
-  uri: 'https://api.github.com/app/installations/42',
+  uri: "https://api.github.com/users",
 });
 
 const authLink = setContext((_, { headers }) => {

@@ -7,8 +7,9 @@ import RepositoriesView from "./RepositoriesView";
 import ContributionsView from "./ContributionsView";
 
 const OptionsWrapper = styled.div`
-  padding: 1rem 0;
+  padding:  0;
   text-align: left;
+  height: none;
 `;
 
 export default () => {

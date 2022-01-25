@@ -10,8 +10,9 @@
   text-align: center;
   font-family: "Quicksand", sans-serif;
   background-color:aqua;
-  background-size: cover;
-  height: 100vh;
+  /*background-size: cover;
+  height: 110vh;
+  background-attachment: fixed;
   /*background: url('./assets/bg.png');
   background-size: cover;
   background-position: left;
@@ -31,7 +32,7 @@ li {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: ivory;
   cursor: pointer;
 }
 

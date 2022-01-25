@@ -72,15 +72,15 @@ function Stats({
           <li className="count-stats">{following} Following</li>
           <li className="count-stats">{starredRepoCount} Starred repositories</li>
           <li className="count-stats">
-            {contributions.contributionCalendar.totalContributions} Contributions
+            {contributions?.contributionCalendar?.totalContributions} Contributions
           </li>
-          {contributions.totalPullRequestContributions ? (
+          {contributions?.totalPullRequestContributions ? (
             <li className="count-stats">
               {contributions.totalPullRequestContributions} Pull Requests
             </li>
           ) : null}
-          {contributions.totalIssueContributions ? (
-            <li className="count-stats">{contributions.totalIssueContributions} Issues</li>
+          {contributions?.totalIssueContributions ? (
+            <li className="count-stats">{contributions?.totalIssueContributions} Issues</li>
           ) : null}
           {pkgCount ? <li className="count-stats">{pkgCount} Packages</li> : null}
           {bountyHunter ? <li className="count-stats">Bounty Hunter</li> : null}
