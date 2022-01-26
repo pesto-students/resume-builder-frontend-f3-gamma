@@ -1,0 +1,74 @@
+:root {
+  --color: #115d79;
+  --lightgrey: rgba(7, 214, 193, 0.768);
+  --darkgrey: rgb(56, 12, 216);
+  --repoTitleColor: #547bcb;
+  --repoTitleHoverColor: #1037b8;
+}
+
+.App {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  background-color:aqua;
+  /*background-size: cover;
+  height: 110vh;
+  background-attachment: fixed;
+  /*background: url('./assets/bg.png');
+  background-size: cover;
+  background-position: left;
+  background-attachment: fixed;
+  height: 100vh; */
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Noticia Text", serif;
+  color: var(--color);
+}
+
+li {
+  margin-left: 2rem;
+}
+
+a {
+  text-decoration: ivory;
+  cursor: pointer;
+}
+
+input[type="color"] {
+  -webkit-appearance: none;
+  border: none;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+  /* border-radius: 50%; */
+}
+input[type="color"]::-webkit-color-swatch,
+input[type="color"]::-moz-color-swatch {
+  border: none;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #resume,
+  #resume * {
+    visibility: visible;
+  }
+
+  #resume {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: none;
+    padding: 0 2rem;
+  }
+}
