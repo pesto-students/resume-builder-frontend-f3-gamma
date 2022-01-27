@@ -48,7 +48,7 @@ function Resume({ titleColor }) {
     setData(res)
     })
   }, [username]);
-console.log(data)
+console.log(data.location)
   // if (loading) return <Loader />;
   // if (error)
   //   return (
@@ -62,45 +62,45 @@ console.log(data)
       {data &&
       <Main id="resume">
       <Introduction
-        name={data?.user?.name}
-        username={username}
-        bio={data?.user?.bio}
-        avatarUrl={data?.user?.avatarUrl}
-        location={data?.user?.location}
-        createdAt={data?.user?.createdAt}
+        name={data.name}
+        username={data.login}
+        bio={data.bio}
+        avatarUrl={data.avatar_url}
+        location={data.location}
+        createdAt={data.createdAt}
       />
       <Stats
-        contributions={data?.user?.contributionsCollection}
-        followers={data?.user?.followers?.totalCount}
-        following={data?.user?.following?.totalCount}
-        repoCount={data?.user?.repositories?.totalCount}
-        pkgCount={data?.user?.packages?.totalCount}
-        bountyHunter={data?.user?.isBountyHunter}
-        campusExpert={data?.user?.isCampusExpert}
-        devMember={data?.user?.isDeveloperProgramMember}
-        employee={data?.user?.isEmployee}
-        hireable={data?.user?.isHireable}
-        githubUrl={data?.user?.url}
-        websiteUrl={data?.user?.websiteUrl}
-        starredRepoCount={data?.user?.starredRepositories?.totalCount}
+        contributions={data.contributionsCollection}
+        followers={data.followers}
+        following={data?.following}
+        repoCount={data.repositories}
+        pkgCount={data.packages}
+        bountyHunter={data.isBountyHunter}
+        campusExpert={data.isCampusExpert}
+        devMember={data.isDeveloperProgramMember}
+        employee={data.isEmployee}
+        hireable={data.isHireable}
+        githubUrl={data.html_url}
+        websiteUrl={data.websiteUrl}
+        starredRepoCount={data.starredRepositories}
         titleColor={titleColor}
       />
       <Repositories
-        repoList={repo ? data?.user?.pinnedItems?.nodes : data?.user?.repositories?.nodes}
+        repoList={repo ? data.pinnedItems?.nodes : data.repositories?.nodes}
         username={username}
         titleColor={titleColor}
       />
-      {data?.user?.contributionsCollection?.totalPullRequestContributions && (
+      {data.contributionsCollection?.totalPullRequestContributions && (
         <Contributions
-          repoList={data?.user?.contributionsCollection?.pullRequestContributionsByRepository}
+          repoList={data.contributionsCollection?.pullRequestContributionsByRepository}
           titleColor={titleColor}
         />
       )}
       <Footer
         username={username}
-        githubUrl={data?.user?.url}
-        websiteUrl={data?.user?.websiteUrl}
-        twitterUsername={data?.user?.twitterUsername}
+        githubUrl={data.html_url}
+        websiteUrl={data.websiteUrl}
+        twitterUsername={data.twitterUsername}
       />
     </Main> }
     </div>
