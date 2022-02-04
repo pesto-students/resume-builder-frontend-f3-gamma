@@ -7,8 +7,7 @@ import logo from "../assets/resume.png";
 const Navigation = styled.nav`
   position: sticky;
   top: 0;
-  //background: #fff;//
-  background:aqua;
+  background: #fff;
   padding: 1rem 0;
   display: flex;
   justify-content: space-around;
@@ -62,7 +61,7 @@ function Navbar({ titleColor, setTitleColor }) {
       </div>
       <div className="nav-links">
         {location.pathname === "/" ? (
-          <a href="https://github.com/satyam1203/resume-github">
+          <a href="https://github.com/amitsingh4india/GithubResume">
             <i className="fab fa-github"></i>Open in Github
           </a>
         ) : (
@@ -79,7 +78,7 @@ function Navbar({ titleColor, setTitleColor }) {
             </span>
           </>
         )}
-        <a href="https://github.com/satyam1203/resume-github/fork">
+        <a href="https://github.com/amitsingh4india/GithubResume/fork">
           <i className="fas fa-code-branch"></i>Fork
         </a>
       </div>

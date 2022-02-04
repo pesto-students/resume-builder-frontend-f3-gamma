@@ -1,18 +1,15 @@
 import styled from "styled-components";
 
 export const WrapperDiv = styled.div`
+  margin: 16px;
   
-  height:auto;
-  position:auto;
-  margin: auto;
   > h4 {
-    padding-bottom: 0px;
+    padding-bottom: 8px;
   }
   label {
-    height:auto;
     display: flex;
     align-items: center;
-    padding:  0;
+    padding: 2px 0;
     margin-left: 12px;
     width: max-content;
     cursor: pointer;

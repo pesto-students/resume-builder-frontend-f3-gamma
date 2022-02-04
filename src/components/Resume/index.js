@@ -1,4 +1,7 @@
 import React, { useState, createContext } from "react";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Resume from "./Resume";
 import styled, { css } from "styled-components";
 

@@ -72,15 +72,15 @@ function Stats({
           <li className="count-stats">{following} Following</li>
           <li className="count-stats">{starredRepoCount} Starred repositories</li>
           <li className="count-stats">
-            {contributions?.contributionCalendar?.totalContributions} Contributions
+            {contributions} Contributions
           </li>
-          {contributions?.totalPullRequestContributions ? (
+          {contributions ? (
             <li className="count-stats">
               {contributions.totalPullRequestContributions} Pull Requests
             </li>
           ) : null}
-          {contributions?.totalIssueContributions ? (
-            <li className="count-stats">{contributions?.totalIssueContributions} Issues</li>
+          {contributions ? (
+            <li className="count-stats">{contributions} Issues</li>
           ) : null}
           {pkgCount ? <li className="count-stats">{pkgCount} Packages</li> : null}
           {bountyHunter ? <li className="count-stats">Bounty Hunter</li> : null}
@@ -91,7 +91,7 @@ function Stats({
         </ul>
       </Statistics>
       <p>
-        I'm a motivated Github user, for more details about me, visit{" "}
+        I'm a motivated Github user, for more details about me, visit {""}
         {websiteUrl ? (
           <>
             <a href={websiteUrl} target="_blank" rel="noopener noreferrer">

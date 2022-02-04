@@ -1,5 +1,11 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from "react";
+
+
+
+import {  } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+
 import { BrowserRouter as Router,  Route, Switch } from "react-router-dom";
 import "./App.css";
 

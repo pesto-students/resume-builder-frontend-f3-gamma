@@ -1,15 +1,28 @@
-import Button from "react-bootstrap/Button";
-import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+import axios from "axios";
 
+import Button from 'react-bootstrap/Button';
+
+import React, { useState, useEffect } from "react";
+import { useHistory } from "react-router-dom";
 import svg from "../../assets/github.png";
 import { HomeDesign, InputBox } from "./Home.style";
 
 function Home() {
+
   const [username, setUsername] = useState("");
   const history = useHistory();
-
   const showResume = () => username.length && history.push(`/${username}`);
+  
+  /*var data 
+  const [username, setUsername] = useState("");
+  const history = useHistory();
+  const apiUrl="https://api.github.com/users/"+username;
+  const  showResume = async() => {
+    const response = await axios.get(apiUrl)
+    console.log(response);
+    //data= response.data;
+  }*/
+
   return (
     <HomeDesign>
       <div className="form">
@@ -36,7 +49,7 @@ function Home() {
               placeholder="John_278"
             />
           </InputBox>
-          <Button variant="outline-success" size="lg" onClick={() => showResume()}>Generate</Button>
+          <Button  variant="success" onClick={() => showResume()}>Generate</Button>
         </div>
       </div>
       <img src={svg} alt="graphics" />

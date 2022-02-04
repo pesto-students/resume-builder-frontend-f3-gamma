@@ -4,12 +4,11 @@ import styled from "styled-components";
 import IntroductionView from "./IntroductionView";
 import StatsView from "./StatsView";
 import RepositoriesView from "./RepositoriesView";
-import ContributionsView from "./ContributionsView";
+//import ContributionsView from "./ContributionsView";
 
 const OptionsWrapper = styled.div`
-  padding:  0;
+  padding: 1rem 0;
   text-align: left;
-  height: none;
 `;
 
 export default () => {
@@ -18,7 +17,7 @@ export default () => {
       <IntroductionView />
       <StatsView />
       <RepositoriesView />
-      <ContributionsView />
+      
     </OptionsWrapper>
   );
 };

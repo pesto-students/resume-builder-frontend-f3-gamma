@@ -25,7 +25,7 @@ const HomeDesign = styled.div`
   }
   .form {
     width: 600px;
-    min-height: 250px;
+    min-height: 450px;
     padding: 50px;
     text-align: left;
     @media (max-width: 1024px) {
