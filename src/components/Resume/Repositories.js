@@ -1,8 +1,8 @@
-import React, { useContext ,useState } from "react";
+import React from "react";
 
-import Repo from "./Repo";
+//import Repo from "./Repo";
 import { Wrapper } from "./styles";
-import { ConfigContext } from "./";
+//import { ConfigContext } from "./";
 
 
   const Repositories = ({repoList}) =>{

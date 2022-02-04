@@ -1,8 +1,8 @@
-import axios from "axios";
+
 
 import Button from 'react-bootstrap/Button';
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import svg from "../../assets/github.png";
 import { HomeDesign, InputBox } from "./Home.style";

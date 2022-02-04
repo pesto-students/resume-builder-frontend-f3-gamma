@@ -7,7 +7,7 @@ import {  } from "@apollo/client";
 
 
 
-import Loader from "../../utils/Loader";
+//import Loader from "../../utils/Loader";
 import Introduction from "./Introduction";
 import Stats from "./Stats";
 import Repositories from "./Repositories";
