@@ -7,8 +7,8 @@ import { Wrapper } from "./styles";
 
   const Repositories = ({repoList}) =>{
     return(
-      
-      <h2 >TopRepositoriesName
+      <>
+      <h2 >TopRepositories</h2>
 
       {
         repoList?.length>0 &&
@@ -22,19 +22,22 @@ import { Wrapper } from "./styles";
           
             <ul>
               
-                Repository:
-            {res.name}
+             <h5 color="blue"> : 
+            {res.name}</h5>
             
 
             </ul>
             <ul>
-              Description:
-              {res.desc}
+              <h6>
+              :
+              {res.desc}</h6>
             </ul>
             <ul>
-              Watchers:
+              
+              watchers:
               {res.watchers}
             </ul>
+          
           
           
           </Wrapper>
@@ -46,7 +49,7 @@ import { Wrapper } from "./styles";
       
       
       
-      </h2>
+      </>
       
       
     )

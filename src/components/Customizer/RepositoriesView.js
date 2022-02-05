@@ -5,7 +5,7 @@ import { ConfigContext } from "../Resume";
 
 const RepositoriesView = () => {
   const { config, setConfig } = useContext(ConfigContext);
-  const [count, setCount] = useState(6);
+  const [count, setCount] = useState(30);
 
   useEffect(() => {
     setConfig({ ...config, repositories: { ...config.repositories, count } });
@@ -27,7 +27,7 @@ const RepositoriesView = () => {
         <input
           type="number"
           min={1}
-          max={6}
+          max={30}
           value={count}
           onChange={(e) => setCount(Number(e.target.value))}
         />
