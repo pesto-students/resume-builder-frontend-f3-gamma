@@ -1,9 +1,19 @@
 # GithubResume App
 This App generates Resume For Github users
+## Objective
+This App was created for Github users to showcase their skills.
+### Why This  App
+This App Generates Resume of github users within seconds and user can printout resume.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Links For The App
-https://kind-meitner-2e6eeb.netlify.app/
+[GithubResume App](https://kind-meitner-2e6eeb.netlify.app/)
+
+### Visuals
+![search page](https://kind-meitner-2e6eeb.netlify.app/)
+![Home Page](https://kind-meitner-2e6eeb.netlify.app/harshitkedia)
+
 
 In the project directory, you can run:
 Clone the project
