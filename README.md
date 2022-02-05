@@ -11,8 +11,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [GithubResume App](https://kind-meitner-2e6eeb.netlify.app/)
 
 ### Visuals
-![search page](https://kind-meitner-2e6eeb.netlify.app/)
-![Home Page](https://kind-meitner-2e6eeb.netlify.app/harshitkedia)
+![search page] (https://kind-meitner-2e6eeb.netlify.app/)
+![Home Page] (https://kind-meitner-2e6eeb.netlify.app/harshitkedia)
 
 
 In the project directory, you can run:
