@@ -1,10 +1,16 @@
-# Getting Started with Create React App
-
+# GithubResume App
+This App generates Resume For Github users
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Links For The App
+https://kind-meitner-2e6eeb.netlify.app/
 
 In the project directory, you can run:
+Clone the project
+
+```bash
+  git clone https://github.com/pesto-students/resume-builder-frontend-f3-gamma.git
+```
 
 ### `npm start`
 
@@ -27,7 +33,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the section about [deployment](https://kind-meitner-2e6eeb.netlify.app/) for more information.
 
 ### `npm run eject`
 
