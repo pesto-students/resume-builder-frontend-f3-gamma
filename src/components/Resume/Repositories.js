@@ -22,14 +22,14 @@ import { Wrapper } from "./styles";
           
             <ul>
               
-             <h5 color="blue"> : 
+             <h5 color="blue"> 
             {res.name}</h5>
             
 
             </ul>
             <ul>
               <h6>
-              :
+              
               {res.desc}</h6>
             </ul>
             <ul>
