@@ -12,7 +12,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Visuals
 ![search page] (https://kind-meitner-2e6eeb.netlify.app/)
-![Home Page] (https://kind-meitner-2e6eeb.netlify.app/harshitkedia)
 
 
 In the project directory, you can run:
