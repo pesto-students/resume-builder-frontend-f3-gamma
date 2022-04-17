@@ -1,7 +1,7 @@
 ```diff
 + GithubResume App
 ```
-
+This App was designed for Github users to showcase their skills
 
 
 
@@ -31,94 +31,30 @@ Test Credentials:
   
   # Installation
   1. Clone the repo
-  git clone ```bash
-  git clone https://github.com/pesto-students/resume-builder-frontend-f3-gamma.git
-```
+   ```git clone https://github.com/pesto-students/resume-builder-frontend-f3-gamma.git```
+   2. Set environment variables
+   3. Innstall NPM packages
+   ```cd GithubResumeApp && npm install```
+   4. Run
+   ```npm start```
+   5. Open "http://localhost/3000" to view it in the browser
+   6. Run Test cases
+   ```npm test```
+   
+   
+   # Technology Stack
+   We tried to use a completely modern tech stack while testing out some new technologies that we had never used before. This resulted in a fast, performant, and easily-extensible web app that should be fairly future-proof for the coming next several years. We used:
+   * React
+   * Redux
+   * Node
 
 
-This App generates Resume For Github users
-## Objective
-This App was created for Github users to showcase their skills.
-### Why This  App
-This App Generates Resume of github users within seconds and user can printout resume.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Links For The App
-[GithubResume App](https://kind-meitner-2e6eeb.netlify.app/)
-
-### Visuals
-![search page] (https://kind-meitner-2e6eeb.netlify.app/)
+# Authors
+* [Amit Kumar Singh]
+* [Ramshad Ken]
 
 
-In the project directory, you can run:
-Clone the project
+# License
+[MIT]
 
-```bash
-  git clone https://github.com/pesto-students/resume-builder-frontend-f3-gamma.git
-```
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://kind-meitner-2e6eeb.netlify.app/) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# GithubResume
-# GithubResume
