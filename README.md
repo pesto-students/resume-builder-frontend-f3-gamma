@@ -25,10 +25,14 @@ Please Note:
 2. Use The App on Laptop/Desktop as of now.
 
 Test Credentials:
-* For users
-<br>
-            Enter GuthubUsername
-            <br>
+* For users<br>Enter GuthubUsername
+  <br>
+  
+  # Installation
+  1. Clone the repo
+  git clone ```bash
+  git clone https://github.com/pesto-students/resume-builder-frontend-f3-gamma.git
+```
 
 
 This App generates Resume For Github users
