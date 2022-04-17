@@ -25,7 +25,8 @@ Please Note:
 2. Use The App on Laptop/Desktop as of now.
 
 Test Credentials:
-* For users<br> > * Enter GuthubUsername
+> For users<br> 
+> * Enter GuthubUsername
   <br>
   
   # Installation
