@@ -1,4 +1,19 @@
-# GithubResume App
++ GithubResume App
+
+
+
+
+# Table of Content
+1. Demo
+2. Installation
+3. Technology Stack
+4. Authors
+5. License 
+
+
+
+# Demo
+<br>
 This App generates Resume For Github users
 ## Objective
 This App was created for Github users to showcase their skills.
