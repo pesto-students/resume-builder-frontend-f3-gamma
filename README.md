@@ -26,7 +26,9 @@ Please Note:
 
 Test Credentials:
 * For users
+<br>
             Enter GuthubUsername
+            <br>
 
 
 This App generates Resume For Github users
