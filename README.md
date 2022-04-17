@@ -18,6 +18,17 @@
 
 [Live Demo](https://kind-meitner-2e6eeb.netlify.app/)
 
+
+
+Please Note:
+1. We recommend using this App in Google Chrome
+2. Use The App on Laptop/Desktop as of now.
+
+Test Credentials:
+* For users
+            Enter GuthubUsername
+
+
 This App generates Resume For Github users
 ## Objective
 This App was created for Github users to showcase their skills.
