@@ -15,10 +15,9 @@
 
 
 # Demo
-<br/>
-[Live Demo]
-(https://kind-meitner-2e6eeb.netlify.app/ "GithubResume App")
-<br/>
+</br>
+[Live Demo](https://kind-meitner-2e6eeb.netlify.app/ "GithubResume App")
+</br>
 This App generates Resume For Github users
 ## Objective
 This App was created for Github users to showcase their skills.
