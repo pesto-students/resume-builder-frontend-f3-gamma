@@ -1,7 +1,7 @@
 ```diff
 + GithubResume App 
 ```
-! [GithubResume App] (https://drive.google.com/drive/my-drive)
+! [GithubResume App] (https://raw.githubusercontent.com/pesto-students/resume-builder-frontend-f3-gamma/master/public/favicon.ico)
 This App was designed for Github users to showcase their skills
 
 
