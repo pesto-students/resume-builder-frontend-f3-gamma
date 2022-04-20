@@ -5,7 +5,7 @@ This App was designed for Github users to showcase their skills
 
 
 
-# Table of Content
+# Table of Contents
 1. Demo
 2. Installation
 3. Technology Stack
