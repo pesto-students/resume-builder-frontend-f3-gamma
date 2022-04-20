@@ -4,7 +4,7 @@
 ![logo](https://user-images.githubusercontent.com/76247705/164280957-c74e988b-0e2d-4ff9-ab92-af940f110db1.jpg)
 
 
-This App was designed for Github users to showcase their skills
+This App was designed for Github users to showcase their skills, contributions and Top Repositories. This App will track all records of Developers and will  make the resume in few seconds.
 
 
 
