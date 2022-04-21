@@ -2,7 +2,8 @@
 +   GithubResume App 
 ```
 
-             ![logo4](https://user-images.githubusercontent.com/76247705/164481905-7bd256cf-304d-4724-8521-99512a0d948e.jpg)
+     ![logo4](https://user-images.githubusercontent.com/76247705/164482031-be1d849a-10eb-4d89-a6eb-eff19d5b5202.jpg)
+        
  
 
 
