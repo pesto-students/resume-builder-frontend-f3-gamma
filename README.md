@@ -1,7 +1,7 @@
 ```diff
-+  # GithubResume App 
++   GithubResume App 
 ```
-![logo](https://user-images.githubusercontent.com/76247705/164479370-0ad50710-0bdd-4b96-820c-4f8b343f9c99.jpg)
+![logo3](https://user-images.githubusercontent.com/76247705/164480497-50d04cd3-e6df-4ec5-9976-cad8aa4b6b46.jpg)
 
 
 
