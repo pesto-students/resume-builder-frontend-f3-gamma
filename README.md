@@ -1,12 +1,7 @@
 ```diff
 +   GithubResume App 
 ```
-
-     ![logo4](https://user-images.githubusercontent.com/76247705/164482031-be1d849a-10eb-4d89-a6eb-eff19d5b5202.jpg)
-        
- 
-
-
+![logo4](https://user-images.githubusercontent.com/76247705/164482153-054a3c19-06de-479a-b36e-f3afd7698551.jpg)
 This App was designed for Github users to showcase their skills, contributions and Top Repositories. This App will track all records of Developers and will  make the resume in few seconds.
 
 
