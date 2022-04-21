@@ -5,9 +5,7 @@
        
        
        
-       
-       
-       This App was designed for Github users to showcase their skills, contributions and Top Repositories. This online resume builder simplifies the work of making a resume for job seekers by helping them in creating a professional resume. Generate your Github profile overview as Resume
+This App was designed for Github users to showcase their skills, contributions and Top Repositories. This online resume builder simplifies the work of making a resume for job seekers by helping them in creating a professional resume. Generate your Github profile overview as Resume
 
 
 # Table of Contents
