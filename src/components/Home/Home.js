@@ -46,7 +46,7 @@ function Home() {
                 let code = e.which || e.keyCode;
                 if (code === 13) showResume();
               }}
-              placeholder="John_278"
+              placeholder="ShivamKedia"
             />
           </InputBox>
           <Button  variant="success" onClick={() => showResume()}>Generate</Button>
